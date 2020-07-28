@@ -1,5 +1,12 @@
-# Data-science-notebook-project
+
+<p align="center">
+  <img width="1000" height="500" src="assets/Success.jpg" >
+</p>
+
+# Project success analysis
  Several ML algorithms are applied to determine whether a project will be canceled, failed, live, successful, or suspended.
+
+
  
 ### Project statement
 In this toturial I applied several ML algorithms to data set to determine if a project would be successful or not. 
