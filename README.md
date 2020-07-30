@@ -44,5 +44,45 @@ Project_Success_Analysis
 ---
 
 
+<p align="center">
+  <img width="1000" src="assets/download (1).png" >
+</p>
+---
+
+<p align="center">
+  <img width="1000" src="assets/download.png" >
+</p>
+---
+
+
+
+
+
+
+<p align="center">
+  <img width="1000" src="assets/DT.png" >
+</p>
+---
+<p align="center">
+  <img src="assets/ROC_G.png" >
+</p>
+
+
+
+
+---
+<p align="center">
+  <img src="assets/ROC_RF.png" >
+</p>
+
+
+
+
+---
+<p align="center">
+  <img src="assets/model_table.PNG" >
+</p>
+
+
 
 
