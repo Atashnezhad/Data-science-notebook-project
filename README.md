@@ -4,14 +4,12 @@
 </p>
 
 # Project success analysis
- Several ML algorithms are applied to determine whether a project will be canceled, failed, live, successful, or suspended.
+ Several ML algorithms are applied to determine whether a project will be successful, or not.
 
 
  
 ### Project statement
 In this toturial I applied several ML algorithms to data set to determine if a project would be successful or not. 
-The codes resources were provided at the end of this toturial. 
-I think everyone can easily find the tools online and just arrange for them to achieve their desired goal. 
 In this work, You will learn how to handle:
 
 1. Missed values
@@ -23,7 +21,9 @@ In this work, You will learn how to handle:
 7. Fitting ML models (Random Forest, Logistic Regression, Decision Tree, Gaussian, Linear SVC)
 8. Accuracy, Precision, Sensitivity or Recall, F1 score concepts
 9. Evaluating Model Performances
-10. Saving your model
-11. Uploading your model and how to apply it to other data
-You may use docker for this Notebook. 
-(docker pull atashnezhad/datasciencenotebook)
+
+
+
+
+
+
