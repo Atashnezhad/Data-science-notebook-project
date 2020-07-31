@@ -44,15 +44,6 @@ Project_Success_Analysis
 ---
 
 
-<p align="center">
-  <img width="1000" src="assets/download (1).png" >
-</p>
----
-
-<p align="center">
-  <img width="1000" src="assets/download.png" >
-</p>
----
 
 
 
@@ -84,5 +75,16 @@ Project_Success_Analysis
 </p>
 
 
-
+# Recommendations
+---
+* Note that we did not check out the number of 1 to the number of 0. The ratio in this project is 35(1) to 65(0). This can results model to achieve bias toward 0 predictions. In the case of low accuracy results, we can use the oversampling technique and follow the same steps above.
+* The confusion matrix shows good results therefore we don't need to consider oversampling procedure.
+```
+confusion_matrix = 
+ [[38207   299]
+ [  322 21151]]
+```
+* The ML algorithms results are promising with an average accuracy of 0.93.
+* The same project can be solved as a multi-classification (5 separate output).
+* No ML algorithm hyperparameter tuning done. In case of not having a good results, the hyper-paramter optimization is suggested.
 
