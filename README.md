@@ -40,7 +40,7 @@ Project_Success_Analysis
 |   |__ Part 1- load data and cleaning.ipynb 
 |   |__ Part 2- EDA.ipynb 
 |   |__ Part 3- Modeling.ipynb
-|__ data set/
+|__ dataset/
 |__ assets
 |__ README.md
 ```
