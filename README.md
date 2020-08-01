@@ -36,7 +36,10 @@ Project
 Project_Success_Analysis
   
 |__ code/
-|   |__ Project success analysis.ipynb    
+|   |__ All parts- Project success analysis.ipynb  
+|   |__ Part 1- load data and cleaning.ipynb 
+|   |__ Part 2- EDA.ipynb 
+|   |__ Part 3- Modeling.ipynb
 |__ data set/
 |__ assets
 |__ README.md
