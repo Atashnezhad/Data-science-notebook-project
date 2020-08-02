@@ -9,8 +9,9 @@
 
  
 ### Project statement
-In this toturial I applied several ML algorithms to data set to determine if a project would be successful or not. 
-In this work, You will learn how to handle:
+In this tutorial, I applied several ML algorithms to data set to determine if a project would be successful or not. 
+First, the data is uploaded and cleaned. The two columns are deleted and the new column is replaced. The feathered data are transferred using power transformation.
+The feathered, transferred data are fed into the ML algorithms and results are analyzed. The visualization of decision tree algorithms is presented at the end along with recommendations.
 
 ```
 Project
