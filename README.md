@@ -125,6 +125,7 @@ At the following two visulazation of desion-tree algorithm with max depth of thr
 <p align="center">
   <img width="1000" src="assets/DT.png" >
 </p>
+
 ---
 
 
@@ -134,6 +135,7 @@ At the following two visulazation of desion-tree algorithm with max depth of thr
 As it is seen the results are promising using the random forest algorithm for estimating the success of a project.
 
 * ROC-curve for Random-Forest Algorithm
+
 <p align="center">
   <img src="assets/ROC_RF.png" >
 </p>
@@ -141,6 +143,7 @@ As it is seen the results are promising using the random forest algorithm for es
 While the below ROC-curve demonstrate the Gaussian algorithm is not applicable in this case. 
 
 * ROC-curve for Gaussina NB Algorithm
+
 <p align="center">
   <img src="assets/ROC_G.png" >
 </p>
