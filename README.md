@@ -91,12 +91,10 @@ The ML algorithms including KNN, Random-Forest, Logistic-Regression, Decision-Tr
 The model accuracy table was presented at the end. It was found that the Random Forest and Decision tree algorithms are the most successful in predicting the project's success.
 
 
-**Desion-Tree Model with max-depth of three**
-
-At the following two visulazation of desion-tree algorithm including text representation are presented.
+At the following two visulazation of desion-tree algorithm with max depth of three are presented.
 
 
-**Text_representation of desion tree**
+* Text_representation of desion tree
 
 ```
 |--- feature_6 <= 1.33
@@ -122,6 +120,7 @@ At the following two visulazation of desion-tree algorithm including text repres
 |   |   |--- feature_9 >  1.83
 |   |   |   |--- class: 1
 ```
+* The Desion Tree with max depth of three
 
 <p align="center">
   <img width="1000" src="assets/DT.png" >
@@ -131,21 +130,25 @@ At the following two visulazation of desion-tree algorithm including text repres
 
 
 
+**The ROC curves for Random-Forest Algorithm**
+As it is seen the results are promising using the random forest algorithm for estimating the success of a project.
 
-
-
-
-<p align="center">
-  <img src="assets/ROC_G.png" >
-</p>
-
-
-
-
----
+* ROC-curve for Random-Forest Algorithm
 <p align="center">
   <img src="assets/ROC_RF.png" >
 </p>
+
+While the below ROC-curve demonstrate the Gaussian algorithm is not applicable in this case. 
+
+* ROC-curve for Gaussina NB Algorithm
+<p align="center">
+  <img src="assets/ROC_G.png" >
+</p>
+---
+
+
+
+
 
 
 
