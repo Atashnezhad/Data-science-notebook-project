@@ -37,8 +37,12 @@ Project
 ---
 ### Project structure:
 
-The structure of the project is provided at the following. The project composed of three separate parts. In Part 1, the data is uploaded and cleaned. In the second part, the Exploratory data analysis is conducted on data. In this part, new feathered data is produced and whole data is transferred. 
-
+The structure of the project is provided at the following. The project composed of three separate parts. 
+In Part 1, the data is uploaded and cleaned. In the second part, the Exploratory data analysis is conducted on data. 
+In part 1, new feathered data is produced and whole data is transferred. 
+The transformed, cleaned, feathered data are divided to train and test and fed into several machine learning algorithms.
+The concepts for Accuracy, Precision, Sensitivity, or Recall, F1 score are presented. In addition, the ROC for each algorithm is plotted and presented.
+At the end, a table of results is shown.
 
 ```
 Project_Success_Analysis
@@ -54,6 +58,34 @@ Project_Success_Analysis
 ```
 ---
 
+### PART 1 - Loading data and cleaning
+The data is loaded and several inspections including the shape of data, number of numerical and categorical columns, the mean, std, min and max, and number of nulls and assigned columns are investigated.
+The null values rows are ignored (deleted) and the data is saved into the dataset folder.
+
+
+### PART 2 - Exploratory data analysis (EDA)
+In this section, the data was feathered. The deadline data was subtracted from the launched data to find out the number fo days availbe for each project. 
+The categorical parameters are turned into numerical one plus the data was transferred utilizing power transformers. 
+The data distribution before and after transformation is seen below.
+
+**Data Before Transformation:**
+
+<p align="center">
+  <img width="1000" src="assets/data before transfered.png" >
+</p>
+
+
+**Data After Transformation:**
+
+<p align="center">
+  <img width="1000" src="assets/transfered data.png" >
+</p>
+
+
+
+
+
+
 
 
 
@@ -61,6 +93,7 @@ Project_Success_Analysis
   <img width="1000" src="assets/DT.png" >
 </p>
 ---
+
 <p align="center">
   <img src="assets/ROC_G.png" >
 </p>
@@ -84,6 +117,7 @@ Project_Success_Analysis
 
 # Recommendations
 ---
+
 * Note that we did not check out the number of 1 to the number of 0. The ratio in this project is 35(1) to 65(0). This can results model to achieve bias toward 0 predictions. In the case of low accuracy results, we can use the oversampling technique and follow the same steps above.
 * The confusion matrix shows good results therefore we don't need to consider oversampling procedure.
 ```
