@@ -88,15 +88,52 @@ In this section, the cleaned data from the previous section is used for training
 This is a multi-classification problem. the data is split with 80% training and 20% test data.
 The training data is split with the same ratio to training and validation sets.
 The ML algorithms including KNN, Random-Forest, Logistic-Regression, Decision-Tree, GaussianNB, and linear Support vector classifiers are applied.
-The model accuracy table was presented at the end.
+The model accuracy table was presented at the end. It was found that the Random Forest and Decision tree algorithms are the most successful in predicting the project's success.
 
 
-**Desion-Tree Model with max-depth of 3**
+**Desion-Tree Model with max-depth of three**
+
+At the following two visulazation of desion-tree algorithm including text representation are presented.
+
+
+**Text_representation of desion tree**
+
+```
+|--- feature_6 <= 1.33
+|   |--- feature_10 <= 1.56
+|   |   |--- feature_9 <= 1.42
+|   |   |   |--- class: 0
+|   |   |--- feature_9 >  1.42
+|   |   |   |--- class: 1
+|   |--- feature_10 >  1.56
+|   |   |--- feature_9 <= 1.58
+|   |   |   |--- class: 0
+|   |   |--- feature_9 >  1.58
+|   |   |   |--- class: 0
+|--- feature_6 >  1.33
+|   |--- feature_10 <= 1.82
+|   |   |--- feature_9 <= 1.66
+|   |   |   |--- class: 1
+|   |   |--- feature_9 >  1.66
+|   |   |   |--- class: 1
+|   |--- feature_10 >  1.82
+|   |   |--- feature_9 <= 1.83
+|   |   |   |--- class: 0
+|   |   |--- feature_9 >  1.83
+|   |   |   |--- class: 1
+```
 
 <p align="center">
   <img width="1000" src="assets/DT.png" >
 </p>
 ---
+
+
+
+
+
+
+
 
 <p align="center">
   <img src="assets/ROC_G.png" >
