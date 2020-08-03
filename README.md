@@ -126,8 +126,6 @@ At the following two visulazation of desion-tree algorithm with max depth of thr
   <img width="1000" src="assets/DT.png" >
 </p>
 
----
-
 
 
 
@@ -148,9 +146,6 @@ While the below ROC-curve demonstrate the Gaussian algorithm is not applicable i
   <img src="assets/ROC_G2.png" >
 </p>
 
----
-
-
 
 
 * The finalized ML algorithm metrics are provided at the following table.
@@ -160,8 +155,8 @@ While the below ROC-curve demonstrate the Gaussian algorithm is not applicable i
 </p>
 
 
-# Recommendations
 
+# Recommendations
 
 * Note that we did not check out the number of 1 to the number of 0. The ratio in this project is 35(1) to 65(0). This can results model to achieve bias toward 0 predictions. In the case of low accuracy results, we can use the oversampling technique and follow the same steps above.
 * The confusion matrix shows good results therefore we don't need to consider oversampling procedure.
