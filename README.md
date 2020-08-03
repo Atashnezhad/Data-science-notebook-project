@@ -11,20 +11,24 @@
 ### Project statement
 In this tutorial, I applied several ML algorithms to data set to determine if a project would be successful or not. 
 First, the data is uploaded and cleaned. The two columns are deleted and the new column is replaced. The feathered data are transferred using power transformation.
-The feathered, transferred data are fed into the ML algorithms and results are analyzed. The visualization of decision tree algorithms is presented at the end along with recommendations.
+The feathered, transferred data are fed into the ML algorithms and results are analyzed. 
+
+The visualization of decision tree algorithms is presented along with recommendations at the end.
+
+
 
 ```
 Project
   
-|__ 1. Missed values
-|__ 2. Adding a new column to data  
-|__ 3. Delete some useless columns
-|__ 4. Visualization 
-|__ 5. Parameters Featuring and Transforming (Dealing with those parameters that are an object not digit)
-|__ 6. Splitting data (train, validate and test)
-|__ 7. Fitting ML models (Random Forest, Logistic Regression, Decision Tree, Gaussian, Linear SVC)
-|__ 8. Accuracy, Precision, Sensitivity or Recall, F1 score concepts
-|__ 9. Evaluating Model Performances
+|__ 1. Missed values.
+|__ 2. Adding a new column to data.
+|__ 3. Delete some useless columns.
+|__ 4. Visualization.
+|__ 5. Parameters Featuring and Transforming.
+|__ 6. Splitting data (train, validate and test).
+|__ 7. Fitting ML models (Random Forest, Logistic Regression, Decision Tree, Gaussian, Linear SVC).
+|__ 8. Accuracy, Precision, Sensitivity or Recall, F1 score concepts.
+|__ 9. Evaluating Model Performances.
 
 ```
 
@@ -32,6 +36,9 @@ Project
 
 ---
 ### Project structure:
+
+The structure of the project is provided at the following. The project composed of three separate parts. In Part 1, the data is uploaded and cleaned. In the second part, the Exploratory data analysis is conducted on data. In this part, new feathered data is produced and whole data is transferred. 
+
 
 ```
 Project_Success_Analysis
@@ -46,10 +53,6 @@ Project_Success_Analysis
 |__ README.md
 ```
 ---
-
-
-
-
 
 
 
