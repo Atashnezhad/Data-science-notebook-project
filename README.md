@@ -65,7 +65,7 @@ The null values rows are ignored (deleted) and the data is saved into the datase
 
 ### PART 2 - Exploratory data analysis (EDA)
 In this section, the data was feathered. The deadline data was subtracted from the launched data to find out the number fo days availbe for each project. 
-The categorical parameters are turned into numerical one plus the data was transferred utilizing power transformers. 
+The categorical parameters are turned into numerical one plus the data was transferred utilizing power transformers. The objective of this project is to predict whether a project is successful or not. therefore a filter is applied and the number 1 is assigned to successful projects, while the number 0 is assigned to other projects states including, failed, canceled, etc.
 The data distribution before and after transformation is seen below.
 
 **Data Before Transformation:**
@@ -82,12 +82,16 @@ The data distribution before and after transformation is seen below.
 </p>
 
 
+### PART 3 - Modeling using Machine learning Algorithms
+
+In this section, the cleaned data from the previous section is used for training ML algorithms.
+This is a multi-classification problem. the data is split with 80% training and 20% test data.
+The training data is split with the same ratio to training and validation sets.
+The ML algorithms including KNN, Random-Forest, Logistic-Regression, Decision-Tree, GaussianNB, and linear Support vector classifiers are applied.
+The model accuracy table was presented at the end.
 
 
-
-
-
-
+**Desion-Tree Model with max-depth of 3**
 
 <p align="center">
   <img width="1000" src="assets/DT.png" >
