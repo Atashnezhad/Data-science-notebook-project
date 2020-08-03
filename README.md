@@ -145,7 +145,7 @@ While the below ROC-curve demonstrate the Gaussian algorithm is not applicable i
 * ROC-curve for Gaussina NB Algorithm
 
 <p align="center">
-  <img src="assets/ROC_G.png" >
+  <img src="assets/ROC_G2.png" >
 </p>
 ---
 
